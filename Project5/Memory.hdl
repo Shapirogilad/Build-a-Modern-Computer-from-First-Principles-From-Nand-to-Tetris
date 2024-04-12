@@ -32,3 +32,5 @@ CHIP Memory {
 
     Mux4Way16(a=OutMem ,b=OutMem ,c=OutScreen ,d=OutKbd ,sel[1]=address[14], sel[0]=address[13] ,out=out );
 }
+
+
