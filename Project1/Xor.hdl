@@ -17,3 +17,4 @@ CHIP Xor {
     And(a=a, b=bNot, out=out2);
     Or(a=out1, b=out2, out=out);
 }
+
