@@ -68,3 +68,4 @@ CHIP CPU {
     And(a=OutJmp ,b=instruction[15] ,out=LoadPc ); //load pc only if C instruction
     PC(in=OutRegA2 ,load=LoadPc ,inc=true ,reset=reset ,out[0..14]=pc );
 }
+
