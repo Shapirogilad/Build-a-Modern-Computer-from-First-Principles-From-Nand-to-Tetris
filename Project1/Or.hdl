@@ -15,3 +15,4 @@ CHIP Or {
     Not(in=b, out=out2);
     Nand(a=out1, b=out2, out=out);
 }
+
