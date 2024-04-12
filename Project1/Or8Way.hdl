@@ -19,3 +19,4 @@ CHIP Or8Way {
     Or(a=out3, b=out4, out=out6);
     Or(a=out5, b=out6, out=out);
 }
+
